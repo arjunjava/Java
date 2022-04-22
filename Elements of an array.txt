@@ -1,0 +1,10 @@
+import java.util.scanner
+class Elements of an array for each
+{
+public static void main(string args[]);
+{
+{
+system.out.printIn("Infinitive loop....");
+}
+}
+}
