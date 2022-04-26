@@ -1,0 +1,17 @@
+import java.util.scanner
+class Area of rectagle
+{
+int l,b;
+}
+class Area of rectangle
+{
+public static void main(Stringargs[])
+{
+int a;
+Rect rect = new Rect();
+rect.l=20;
+rect.b=60;
+a=rect.l*rect.b;
+System.out.printIn("AreaofRectangleis :"+a);
+}
+}

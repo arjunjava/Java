@@ -1,0 +1,17 @@
+import java.util.scanner;
+class student
+{
+int id;
+string name;
+string location;
+}
+class student
+{
+public static void main(stringargs[])
+{
+t.rollno=7;
+t.name="Arjun";
+t.location="Chennai";
+System.out.printIn(s1.id+""+s.name);
+}
+}
