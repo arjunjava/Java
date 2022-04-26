@@ -1,0 +1,15 @@
+import java.util.scanner;
+class Accept the user input
+{
+public static void main(String args[])
+{
+scanner a=new scanner(system.in);
+system.out.print("Enter the first value-");
+int a=a.nextInt();
+system.out.print("Enter the second value-");
+intb=b.nextInt();
+system.out.print("Enter the third value-");
+intc=c.nextInt();
+int d=a+b+c;
+system.out.printIn("Total="+d);
+}

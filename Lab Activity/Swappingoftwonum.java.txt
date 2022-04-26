@@ -1,0 +1,9 @@
+public static void main (String args[])
+int a=2;
+int b=3;
+system.out.printIn("Before swapping")
+a=b;
+b=a;
+system.out.printIn("After swapping")
+b=a
+a=b
