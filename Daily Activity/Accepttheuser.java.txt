@@ -1,0 +1,42 @@
+#include <stdio.h>
+int main()
+{
+
+int a, b, temp;
+printf("Enter the value of a and b ");
+printf("Before the Swapping a=%d b=%d ",a,b);
+temp=a;
+a=b;
+b=temp;
+printf("After swapping a=%d b=%d",a,b);
+return();
+}
+
+//
+
+public static void main (String args[])
+int a=2;
+int b=3;
+system.out.printIn("Before swapping")
+a=b;
+b=a;
+system.out.printIn("After swapping")
+b=a
+a=b
+//
+import java.util.scanner;
+class Accept the user input
+{
+public static void main(String args[])
+{
+scanner a=new scanner(system.in);
+system.out.print("Enter the first value-");
+int a=a.nextInt();
+system.out.print("Enter the second value-");
+intb=b.nextInt();
+system.out.print("Enter the third value-");
+intc=c.nextInt();
+int d=a+b+c;
+system.out.printIn("Total="+d);
+}
+
