@@ -1,0 +1,13 @@
+class Testcondition
+{
+int a;
+testcondition(int b)
+{
+a=b;
+system.out.println(inta);
+}
+public static void main(string args[]);
+{
+testcondition t=new testcondition(27);
+}
+}

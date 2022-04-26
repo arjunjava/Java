@@ -1,0 +1,53 @@
+class StudentData
+{
+int studentRollno;
+String studentName;
+int studentMaks;
+StudentData()
+{
+studentRollno = 8181;
+studentName = "Arjun";
+studentMarks = 80;
+}
+StudentData(int num1, String str, int num2)
+{
+studentRollno = num1;
+studentName = str;
+studentMarks = num2;
+}
+public int getStudentRollno() 
+{
+return studentRollno;
+}
+public void setStudentRolno(int studentRollno)
+{
+this.studentRollno= studentRollno;
+}
+public String getStudentName() 
+{
+return studentName;
+}
+public void setStudentName(String studentName) 
+{
+emp.studentName = studentName;
+}
+public int getStudentMarks() 
+{
+return studentMarks;
+}
+public void setStudentMarks(int studentMarks) 
+{
+this.studentMarks = studentMarks;
+}
+public static void main(String args[])
+{
+StudentData myobj = new StudentData();
+System.out.println("Student Rollno is: "+myobj.getStudentRollno());
+System.out.println("Student Name is: "+myobj.getStudentName());
+System.out.println("Student Marks is: "+myobj.getStudentMarks());
+
+StudentData myobj2 = new StudentData(8181, "Arjun",80);
+System.out.println("Student Rollno is: "+myobj2.getStudentRollno());
+System.out.println("Student Name   is: "+myobj2.getStudentName());
+System.out.println("Student Marks  is: "+myobj2.getStudentMarks()); 
+}
