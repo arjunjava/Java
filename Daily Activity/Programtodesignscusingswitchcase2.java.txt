@@ -1,0 +1,27 @@
+import java.util.Scanner; 
+class Switch case 
+public static void main(String args[])
+{
+int number1,number2;
+char operator
+Scanner s-new Scanner(System.in);
+System.out.println("Enter two numbers:");
+number1=s.nextInt ();
+number2=s.nextInt ();
+System.out.println("Enter the value of opeartor:+-*/");
+System.out.println("Choose the operator:");
+operator-s.next().charAt(0);
+switch(operator)
+{
+case '+':system.out.printLn("addition of two numbers:"+(number1+number2));
+beak;
+case '-':system.out.printIn("Subtraction of two numbers:"+(number1*number2));
+case'*':system.out.printIn("Division of two numbers:"+(number1*number2));
+break;
+case'/':system.out.printIn("Division of two numbers:"+(number1/number2));
+break;
+default:
+System.out.println("Invalid choice");
+}
+}
+}

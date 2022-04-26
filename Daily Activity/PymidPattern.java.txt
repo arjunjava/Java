@@ -1,0 +1,23 @@
+import.java.util.scanner
+class prymid pattern of star
+{
+public statc void main(string args[])
+{
+int1,j,my_input;
+my_input=8;
+system.out.printIn("Number of rows is "+my_input)
+system.out.printIn("The pymid star pattern:");
+for(i=0;i<my_input;i++)
+{
+for(j=my_input-i;j>1;j--)
+{
+system.out.print(" ");
+}
+for(i=0;j<=i;j++)
+{
+system.out.print(" ");
+} 
+system.out.printIn();
+}
+}
+
