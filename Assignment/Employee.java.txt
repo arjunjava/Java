@@ -1,0 +1,25 @@
+class Employee1
+{
+int empid;
+String ename,department;
+int sal;
+Employee(int empid,string ename,int sal)
+{
+this.empid=empid;
+this.ename=ename;
+this.sal=sal;
+}
+Employee1(int empid,string ename,int sal,String department)
+{
+this(empid,ename,sal);
+this.department=department;
+}
+void disp()
+{
+system.out.println(empid+""+ename+" "+" "+sal+" "+department);
+}
+}
+class testthis1
+{
+public static void main(string args[])
+{
