@@ -1,0 +1,13 @@
+class conchain
+{
+conchain()
+{
+system.out.println("Default body...");
+}
+system.out.println(a);
+}
+public static void main(string args[])
+{
+conchain c=new conchain();
+}
+}
